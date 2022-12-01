@@ -2,13 +2,21 @@
 import random
 
 
-def shuffle(cards: list) -> list:
+def shuffle(cards: list) -> None:
 
     random.shuffle(cards)
-    return cards
+    return None
 
 
-def main():
+def pre_hokm_dist(cards: list, players: list) -> None:
+    for player in players:
+        for _ in range(4):
+            player.append(cards.pop(0))
+
+    return None
+
+
+def main() -> None:
 
     clubs = ['2_c', '3_c', '4_c', '5_c', '6_c', '7_c', '8_c',
              '9_c', '10_c', '11_c', '12_c', '13_c', '14_c']
@@ -27,6 +35,15 @@ def main():
     jokers = ["RED_J", "BLACK_J"]
 
     cards = clubs + hearts + spades + diamond + jokers
+
+    player_1_cards = []
+    player_2_cards = []
+    player_3_cards = []
+    player_4_cards = []
+
+    players = [player_1_cards, player_2_cards, player_3_cards, player_4_cards]
+
+    # End of defining variables ---------------------------------------
 
     print(cards)
 
