@@ -1,0 +1,41 @@
+python_syntax : {
+
+    #1  print("something")       --> print something,
+    #2  input("input text")      --> gets an input from user,
+    #3  if(condition):
+    #       instructions
+    #   elif(condition):
+    #       instructions
+    #   .
+    #   .
+    #   .
+    #   else:
+    #       instructions
+
+}
+
+binary_operations : {
+
+    1# > : greatter than,
+    2# < : smaller than,
+    3# >= : greatter than or equal,
+    4# <= : smaller than or equal,
+    5# == : equal,
+    6# != : not equal
+
+}
+
+1_variables:
+    [    
+    
+    type of variables,
+    how to input a variable,
+    how to set the type a variable,
+    how to print a variable in standard output,
+    how to comment a line,
+]
+
+2_operators:[
+
+]
+
