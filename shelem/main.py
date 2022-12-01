@@ -14,6 +14,8 @@ def main():
     diamond = ['2_d', '3_d', '4_d', '5_d', '6_d', '7_d',
                '8_d', '9_d', '10_d', '11_d', '12_d', '13_d', '14_d']
 
+    card_types = ["c", "h", "s", "d"]
+
     jokers = ["RED_J", "BLACK_J"]
 
     cards = clubs + hearts + spades + diamond + jokers
