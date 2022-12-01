@@ -1,4 +1,12 @@
 
+import random
+
+
+def shuffle(cards: list) -> list:
+
+    random.shuffle(cards)
+    return cards
+
 
 def main():
 
