@@ -1,16 +1,17 @@
 # Variables in python
 
->A Python variable is a symbolic name that is a reference or pointer to an object. Once an object is assigned to a ?>variable, you can refer to the object by that name. But the data itself is still contained within the object
+>Variable ha dar python kheyli khooban.
 
-Python has no command for declaring a variable
-A variable is created the moment you first assign a value to it
+>Chand noe variable darim too python ke shamele ina hastan:
+## int
+## str
+## float
+## boolean
 
-```python
-x = 5
-```
-
->Variables can store data of different types, and different types can do different things.
->Python has the following data types built-in by default, in these categories.
-
-
-
+>int ke hamoon adad e sahihan.
+>float ham adad e ashari. 
+>str ham reshte hastan mese text.
+>boolean ham ya True e ya False.
+>EZ.
+>Agar khastim ye motoghayer tarif konim az ghaedeye zir estefade mikonim.
+### variable_name (: variable_type) = value

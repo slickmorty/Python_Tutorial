@@ -31,7 +31,12 @@ def main():
     cards_list = cards['clubs']+cards['diamond'] + \
         cards['hearts']+cards['jokers']+cards['spades']
 
-    print(cards["spades"])
+    players: dict = {"player_1": {"player_cards": [], "points": [], "is_hakem": False},
+                     "player_2": {"player_cards": [], "points": [], "is_hakem": False},
+                     "player_3": {"player_cards": [], "points": [], "is_hakem": False},
+                     "player_4": {"player_cards": [], "points": [], "is_hakem": False}}
+
+    hakem = "player_1"
 
 
 if __name__ == "__main__":
