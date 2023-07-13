@@ -120,20 +120,20 @@ x = int(input())
 
 # SOME OTHER WAY
 
-if x % 2 == 1:
-    a1 = 0
-    b1 = x - 2
+# if x % 2 == 1:
+#     a1 = 0
+#     b1 = x - 2
 
-    a2 = x // 2 - 1
-    b2 = 1
-    for i in range(x):
-        if i < x // 2:
-            print(a1 * "  " + "x " + b1 * "  " + "x " + a1 * "  ")
-            a1 += 1
-            b1 -= 2
-        elif i == x // 2:
-            print("  " * (x // 2) + "x " + "  " * (x // 2))
-        else:
-            print(a2 * "  " + "x " + b2 * "  " + "x " + a2 * "  ")
-            a2 -= 1
-            b2 += 2
+#     a2 = x // 2 - 1
+#     b2 = 1
+#     for i in range(x):
+#         if i < x // 2:
+#             print(a1 * "  " + "x " + b1 * "  " + "x " + a1 * "  ")
+#             a1 += 1
+#             b1 -= 2
+#         elif i == x // 2:
+#             print("  " * (x // 2) + "x " + "  " * (x // 2))
+#         else:
+#             print(a2 * "  " + "x " + b2 * "  " + "x " + a2 * "  ")
+#             a2 -= 1
+#             b2 += 2
